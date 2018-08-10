@@ -353,7 +353,7 @@ ldap-phpadmin:
 registry:
   container_name: registry
   restart: always
-  image: registry:2.5.1
+  image: registry:2.6
   net: ${CUSTOM_NETWORK_NAME}
   expose:
     - "5000"
